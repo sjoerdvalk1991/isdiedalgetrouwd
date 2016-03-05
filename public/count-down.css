@@ -19,7 +19,7 @@ body{
 }
 
 .react-count-down .prefix {
-  font-size: 300%;
+  font-size: 4em;
   font-weight: 200;
   line-height: 1.5;
 
@@ -45,6 +45,12 @@ body{
   text-transform: uppercase;
   color: #FFF;  
 
+}
+
+@media screen and (max-width: 480px) {
+  body{
+    font-size: 50%;
+  }
 }
 
 
