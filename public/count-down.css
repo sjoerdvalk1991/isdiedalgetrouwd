@@ -1,0 +1,67 @@
+@font-face {
+    font-family: BaroqueScript;
+    src: url(BaroqueScript.ttf);
+}
+
+
+body{
+  background-color: #8EE1C0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#container{
+  text-align: center;
+}
+
+.react-count-down {
+    margin: 0;
+    padding: 2em;
+}
+
+.react-count-down .prefix {
+  font-size: 300%;
+  font-weight: 200;
+  line-height: 1.5;
+
+  display: block;
+    margin: 4rem 0;
+  color: #fff;  
+}
+
+ .prefix-2 {
+  font-size: 350%;
+  display: block;
+  font-family: BaroqueScript;
+  margin: 4rem 0;
+  font-weight: 100;
+  line-height: 1.5;
+  color: #fff;  
+}
+
+#checker{
+    margin: 4rem 0;
+    font-size: 400%;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FFF;  
+
+}
+
+
+ #date {
+  font-size: 200%;
+  font-weight: 200;
+  line-height: 1.5;
+  margin: 4rem 0;
+  color: #fff;
+}
+
+
+.img-holder{
+  width: 320px;
+  height: 320px;
+  border-radius: 100%;
+  margin: 0 auto;
+  background-image: url('https://scontent-amt2-1.xx.fbcdn.net/hphotos-xat1/t31.0-8/10623469_950959578315210_5556357374809134384_o.jpg');
+  background-position: center -170px;
+}
