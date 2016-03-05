@@ -68,10 +68,12 @@ body{
 
 
 .img-holder{
-  width: 320px;
-  height: 320px;
+  width: 210px;
+  height: 210px;
   border-radius: 100%;
   margin: 0 auto;
+  background-repeat: none;
   background-image: url('https://scontent-amt2-1.xx.fbcdn.net/hphotos-xat1/t31.0-8/10623469_950959578315210_5556357374809134384_o.jpg');
-  background-position: center -170px;
+  background-position: center -10px;
+  background-size: 97%;
 }
