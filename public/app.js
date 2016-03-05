@@ -59,7 +59,7 @@ var DateBetween = function DateBetween(startDate, endDate) {
       checker.innerHTML = 'Nee';
     }
 
-  dater.innerHTML = between;
+  dater.innerHTML = 'Nog '+ between;
 
   return between;
 
