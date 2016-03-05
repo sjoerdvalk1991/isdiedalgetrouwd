@@ -49,10 +49,14 @@ body{
 
 @media screen and (max-width: 480px) {
    .prefix-2 {
-      font-size: 150%;
+      font-size: 130%;
   }
   #checker{
-   font-size: 200%; 
+   font-size: 180%; 
+  }
+
+  #date {
+  font-size: 150%;
   }
    
 }
