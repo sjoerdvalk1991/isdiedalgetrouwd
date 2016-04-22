@@ -6,8 +6,11 @@ var DateBetween = function DateBetween(startDate, endDate) {
   var hour = minute * 60;
   var day = hour * 24;
   var distance = endDate - startDate;
-
+  console.log(distance);
+  var checker = document.getElementById('checker');
   if (distance < 0) {
+     checker.innerHTML = 'Ja';
+     
     return 'count down date expired';
   }
 
@@ -52,8 +55,10 @@ var DateBetween = function DateBetween(startDate, endDate) {
 
   
   var dater = document.getElementById('date');
-  var checker = document.getElementById('checker');
-  if(endDate - startDate < 0){
+  
+  console.log(endDate - startDate);
+  if((endDate - startDate) < 0){
+      console.log('test');
       checker.innerHTML = 'Ja';
     }else{
       checker.innerHTML = 'Nee';
@@ -71,3 +76,4 @@ var myCounter = setInterval(function(){
 		
 	DateBetween(startDate, endDate);
 },1000);
+

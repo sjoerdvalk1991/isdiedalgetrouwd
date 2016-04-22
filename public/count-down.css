@@ -70,6 +70,44 @@ body{
   color: #fff;
 }
 
+#info {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 12px 0 0 12px;
+}
+h1 {
+  color: #eeeeee;
+  font-size: 21px;
+  font-weight: normal;
+  margin: 0;
+}
+p, a {
+  margin: 3px 0 0 0;
+  color: #cccccc;
+  font-size: 13px;
+}
+
+h2{
+  position: absolute;
+  top: -120px;
+  left: -120px;
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 80px;
+  -webkit-font-smoothing: antialiased;
+  color: transparent;
+  text-shadow:
+     2px  2px 1px #cc6,
+     0px  3px 1px #c6c,
+    -2px  2px 1px #6cc,
+    -3px  0px 1px #c66,
+    -2px -2px 1px #6c6,
+     0px -3px 1px #66c,
+     2px -2px 1px #ccc,
+     3px  0px 1px #666;
+}
+
 
 .img-holder{
   width: 210px;
